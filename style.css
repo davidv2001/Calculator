@@ -49,3 +49,14 @@ button {
 .span-two-columns {
   width: 50%;
 }
+
+#screen {
+  border: 2px solid black; /* just to see it clearly */
+  display: flex; /* enable flexbox */
+  justify-content: flex-end; /* move text to the right */
+  align-items: flex-end; /* move text to the bottom */
+  padding: 10px; /* add a little space from edges */
+  font-size: 2rem; /* make the text bigger */
+  font-family: monospace; /* calculator-style font look */
+  overflow: hidden; /* prevent text from overflowing */
+}
